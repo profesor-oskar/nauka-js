@@ -35,6 +35,21 @@ pre {
     background-color: #222222;
 }
 
+button {
+    background-color: yellow;
+    color: red;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: blue;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+
 .container {
     max-width: 800px;
     margin-left: auto;
@@ -46,5 +61,7 @@ pre {
     color: red;
     background-color: #C39CE7;
     border: 2px solid red;
+    text-align: center;
 
 }
+
