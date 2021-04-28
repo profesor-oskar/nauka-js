@@ -1,0 +1,50 @@
+body {
+    background-color: #3b3b3b;
+    color: #fafafa;
+}
+a, a:visited {
+    color: #fafafa;
+    text-decoration: none;
+    padding: 3px;
+    transition: color 0.5s;
+}
+a:hover {
+    color: yellow;
+    transition: color 0.5s;
+}
+
+.link, .link:visited {
+    display: inline-block;
+    color: #303f9f;
+    background-color: yellow;
+    text-decoration: none;
+    padding: 3px;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: red;
+    transition: color 0.5s;
+}
+
+pre {
+    white-space: pre-wrap;
+    max-width: 100%;
+    border: 2px solid #303f9f;
+    padding: 10px;
+    background-color: #222222;
+}
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code {
+    padding: 1em;
+    color: red;
+    background-color: #C39CE7;
+    border: 2px solid red;
+
+}
